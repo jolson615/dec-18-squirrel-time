@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function Squirrel(props) {
   return (
     <div className="Squirrel">
-      <h3>SQUIRREL CARD!</h3>
+      <h3>
+        {props.sdata.age} {props.sdata.primary_fur_color}
+      </h3>
     </div>
   );
 }
